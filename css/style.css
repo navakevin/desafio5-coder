@@ -1,0 +1,119 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(black, grey)
+}
+.nav-color{
+    background-color: rgb(128, 0, 128);
+}
+
+.cartas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    margin-top: auto;
+}
+
+.footer-faq{
+    margin-top: auto;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 25px;
+    /* margin-bottom: -1rem; */
+    margin: 0%;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+.text-center{
+    color: white;
+    border: solid 5px rgba(255, 0, 0, 0.507);
+background-color: rgba(131, 2, 41, 0.473);
+margin: 25px;
+}
+
+.accordion{
+    margin: 20px;
+    padding: 0px;
+}
+
+.accordion-button{
+    background-color: rgb(128, 0, 121) !important;
+    color: black !important;
+}
+
+.accordion-body{
+    color: white;
+    background-color: rgba(85, 0, 0, 0.938);
+}
+
+.perritos{
+margin: 10px;
+}
+
+.perritos img{
+    padding: 10px;
+    transition: all 300ms;
+}
+
+.perritos img:hover{
+    /* border: solid black; */
+    transform: scale(1.1, 1.1);
+}
+
+.footer-faq, .footer-spinner{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.card{
+    background-color: rgb(128, 0, 128);
+    margin-top: 10px;
+}
+
+.btn-btn{
+    margin: 25px;
+}
+
+.boton-color{
+background-color: rgb(128, 0, 128);
+color: black;
+}
+
+.color-card{
+    background-color: rgba(163, 2, 2, 0.76) !important;
+    color: black !important;
+}
+
+h2{
+    color: white;
+}
+
+.spinner{
+    display: flex;
+    justify-content: center
+}
+
+.btn-outline-success{
+    background-color: black;
+    color: white;
+}
+
+.dropdown-menu{
+    background-color: rgba(163, 2, 2, 0.76) !important;
+    color: black !important;
+}
+
+navbar{
+    background-color: rgba(163, 2, 2, 0.76) !important;
+    color: black !important;}
